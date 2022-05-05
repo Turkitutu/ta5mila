@@ -1,0 +1,30 @@
+.cleaner {
+  margin: auto;
+  padding-top: 100px;
+  margin-bottom: 30px;
+}
+
+h6 {
+  padding-top: 30px;
+  margin-bottom: 20px;
+  font-family: "Poppins";
+  font-weight: 550;
+}
+
+h2 {
+  padding-top: 70px;
+  margin-bottom: 40px;
+  font-family: "Poppins";
+  font-weight: 550;
+  text-align: center;
+}
+
+.container .btn-primary {
+  background: #fca61f;
+  border-color: #fca61d;
+}
+
+.container .btn-primary:focus {
+  box-shadow: #fca61d80 0px 0px 0px 4.5px;
+  border-color: #ff9800;
+}

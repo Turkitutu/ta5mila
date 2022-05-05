@@ -1,0 +1,78 @@
+footer {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: rgb(64, 64, 64);
+}
+
+footer .widget_wrapper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  footer .widget_wrapper .widget {
+    margin-bottom: 40px;
+  }
+}
+
+footer .widget_wrapper .widegt_about {
+  padding-top: 15px;
+  text-align: center;
+}
+
+footer .widget_wrapper .widegt_about p {
+  margin-bottom: 20px;
+}
+
+footer .widget_wrapper .widegt_about img {
+  margin-bottom: 20px;
+}
+
+footer .widget_wrapper .widegt_about .social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer .widget_wrapper .widegt_about .social li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #f9e6d4;
+  color: #fba543;
+  font-size: 20px;
+  -webkit-transition: all all 0.5s ease-out 0s;
+  -moz-transition: all all 0.5s ease-out 0s;
+  -ms-transition: all all 0.5s ease-out 0s;
+  -o-transition: all all 0.5s ease-out 0s;
+  transition: all all 0.5s ease-out 0s;
+}
+
+footer .widget_wrapper .widegt_about .social li a:hover,
+footer .widget_wrapper .widegt_about .social li a:focus {
+  background-image: -moz-linear-gradient(0deg, #ffbd27 0%, #feb000 100%);
+  background-image: -webkit-linear-gradient(0deg, #ffbd27 0%, #feb000 100%);
+  background-image: -ms-linear-gradient(0deg, #ffbd27 0%, #feb000 100%);
+  color: #fff;
+  box-shadow: 2.5px 4.33px 15px 0px rgba(254, 176, 0, 0.4);
+}
+
+footer .copyright_area {
+  background: #fffcd5;
+}
+
+footer .copyright_area .copyright_text {
+  text-align: center;
+  font-size: 15px;
+}
+
+footer .copyright_area .copyright_text p {
+  color: #011a3e;
+}
+
+footer .copyright_area .copyright_text p span {
+  color: #feb000;
+}

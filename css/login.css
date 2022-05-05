@@ -1,0 +1,72 @@
+body .login {
+  padding-top: 150px;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+body .login {
+  margin-bottom: 90px;
+}
+
+.form-signin {
+  margin: auto;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-check-input:checked {
+  background-color: #fca61f;
+  border-color: #ff9800;
+}
+
+.form-check-input:focus {
+  box-shadow: #fca61d80 0px 0px 0px 4.5px;
+  border-color: #ff9800;
+}
+
+.form-check-input:hover {
+  cursor: pointer;
+}
+
+.login .btn {
+  margin: auto;
+  color: #f3f2ff;
+  background-color: #fca61f;
+  border-color: #fca61d;
+}
+
+.login .btn:focus {
+  box-shadow: #fca61d80 0px 0px 0px 4.5px;
+}
